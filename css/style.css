@@ -1,0 +1,93 @@
+@media screen and (min-width: 1400px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    margin: 0 !important;
+  }
+  .navbar .nav-item {
+    text-align: center;
+  }
+  .navbar .nav-link {
+    margin: 0 50px;
+  }
+  .big-screen {
+    display: none !important;
+  }
+}
+
+.navbar {
+  margin: 0 100px;
+}
+
+.navbar .navbar-brand img {
+  width: 250px;
+}
+
+.navbar .find_text {
+  margin: 5px 10px;
+}
+
+.navbar input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-radius: 0;
+  border-color: #6e6e6e;
+}
+
+.navbar input:focus {
+  border-color: #019cdf;
+  border-width: 0 0 3px;
+  margin-bottom: -2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar button {
+  background: transparent;
+  border: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.navbar .nav-link {
+  color: #019cdf !important;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #019cdf;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+}
+
+.navbar .nav-link:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.navbar #navbarNav {
+  border-bottom: 2px solid #aeaeae;
+}
+
+.navbar .nav-item p {
+  margin: 2px;
+  padding: 5px;
+  color: #6e6e6e;
+}
