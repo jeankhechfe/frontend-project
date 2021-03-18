@@ -1,5 +1,6 @@
 .navbar {
-  margin: 0 100px;
+  padding: 0 100px;
+  background-color: #fff;
 }
 
 .navbar .navbar-brand img {
@@ -64,10 +65,15 @@
   color: #6e6e6e;
 }
 
+.second-part-nav {
+  top: 50px;
+  padding-top: 25px;
+}
+
 .head {
   text-transform: uppercase;
   color: #6e6e6e;
-  margin-top: 10px;
+  margin-top: 150px;
 }
 
 .head p {
