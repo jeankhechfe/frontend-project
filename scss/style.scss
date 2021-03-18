@@ -1,9 +1,11 @@
 $primary-color: #019cdf;
 $second-color: #ececec;
 $font-color: #6e6e6e;
-$light-gray: #aeaeae;
+$gray: #aeaeae;
+// $dark-gray: #7e7e7e;
+$light-gray: #f4f4f4;
 
-@import 'responsive';
+// ------------------Navbar & Header------------------
 
 .navbar {
     margin: 0 100px;
@@ -54,7 +56,7 @@ $light-gray: #aeaeae;
     }
 
     #navbarNav {
-        border-bottom: 2px solid $light-gray;
+        border-bottom: 2px solid $gray;
     }
 
     .nav-item p {
@@ -65,3 +67,96 @@ $light-gray: #aeaeae;
 
 }
 
+.head {
+    text-transform: uppercase;
+    color: $font-color;
+    margin-top: 10px;
+    
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 400px;
+    }
+}
+
+// ------------------Second Section------------------
+
+.title {
+    text-transform: uppercase;
+    color: $font-color;
+    font-size: 24px;
+    border-bottom: 2px solid $font-color;
+    display:inline-block;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.ads {
+    background-color: $gray;
+    
+    p {
+        text-transform: uppercase;
+        margin-top: 1rem;
+        color: #fff;
+    }
+}
+
+.airnews {
+    margin-top: 35px;
+
+    .background {
+        background-color: $second-color;
+    }
+
+    .title {
+        padding-top: 50px;
+        margin-bottom: 2rem;
+    }
+
+    .card-wrapper  {
+        margin-bottom: -7%;
+    }
+
+    .card {
+        border: none;
+
+        &-body {
+            background-color: $light-gray;
+            padding: 0.8rem 0.8rem 0 0.8rem;
+    
+            .fa-angle-down {
+                color: $primary-color;
+                font-size: 30px;
+            }
+        }
+
+        &-date {
+            color: $font-color;
+            display:inline-block;
+            border-bottom: 2px solid $font-color;
+        }
+    
+        &-title {
+            color: $primary-color;
+            display:inline-block;
+            border-bottom: 2px solid $primary-color;
+        }
+    
+        &-text {
+            font-size: 12px;
+            color: $font-color;
+            margin-bottom: 5px;
+        }
+    }
+    
+    .ads {
+        margin-top: 110px;
+    }
+    
+}
+
+@import 'responsive';

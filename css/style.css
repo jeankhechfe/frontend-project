@@ -1,31 +1,3 @@
-@media screen and (min-width: 1400px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .container {
-    margin: 0 100px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .navbar {
-    margin: 0 !important;
-  }
-  .navbar .nav-item {
-    text-align: center;
-  }
-  .navbar .nav-link {
-    margin: 0 50px;
-  }
-  .big-screen {
-    display: none !important;
-  }
-}
-
 .navbar {
   margin: 0 100px;
 }
@@ -90,4 +62,166 @@
   margin: 2px;
   padding: 5px;
   color: #6e6e6e;
+}
+
+.head {
+  text-transform: uppercase;
+  color: #6e6e6e;
+  margin-top: 10px;
+}
+
+.head p {
+  font-size: 20px;
+}
+
+.head img {
+  width: 400px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #6e6e6e;
+  font-size: 24px;
+  border-bottom: 2px solid #6e6e6e;
+  display: inline-block;
+}
+
+.title span {
+  font-weight: bold;
+}
+
+.ads {
+  background-color: #aeaeae;
+}
+
+.ads p {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.airnews {
+  margin-top: 35px;
+}
+
+.airnews .background {
+  background-color: #ececec;
+}
+
+.airnews .title {
+  padding-top: 50px;
+  margin-bottom: 2rem;
+}
+
+.airnews .card-wrapper {
+  margin-bottom: -7%;
+}
+
+.airnews .card {
+  border: none;
+}
+
+.airnews .card-body {
+  background-color: #f4f4f4;
+  padding: 0.8rem 0.8rem 0 0.8rem;
+}
+
+.airnews .card-body .fa-angle-down {
+  color: #019cdf;
+  font-size: 30px;
+}
+
+.airnews .card-date {
+  color: #6e6e6e;
+  display: inline-block;
+  border-bottom: 2px solid #6e6e6e;
+}
+
+.airnews .card-title {
+  color: #019cdf;
+  display: inline-block;
+  border-bottom: 2px solid #019cdf;
+}
+
+.airnews .card-text {
+  font-size: 12px;
+  color: #6e6e6e;
+  margin-bottom: 5px;
+}
+
+.airnews .ads {
+  margin-top: 110px;
+}
+
+@media screen and (min-width: 1400px) {
+  .navbar .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .navbar .container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .airnews .ads {
+    margin-top: 95px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .airnews .card-title {
+    font-size: 19px;
+  }
+  .airnews .ads {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .airnews .card-wrapper {
+    margin-bottom: 30px;
+  }
+  .airnews .ads {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    margin: 0;
+  }
+  .navbar .nav-item {
+    text-align: center;
+  }
+  .navbar .nav-link,
+  .navbar .small-screen {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .navbar form {
+    margin-bottom: 25px;
+  }
+  .big-screen {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .small-screen {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar .navbar-brand img {
+    width: 200px;
+  }
+  .head img {
+    width: 250px;
+  }
+  .head p {
+    font-size: 16px;
+  }
 }
