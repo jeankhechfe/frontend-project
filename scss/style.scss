@@ -1,8 +1,8 @@
 $primary-color: #019cdf;
 $second-color: #ececec;
 $font-color: #6e6e6e;
+$font-color-dark: #3e3e3e;
 $gray: #aeaeae;
-// $dark-gray: #7e7e7e;
 $light-gray: #f4f4f4;
 
 // ------------------Navbar & Header------------------
@@ -95,6 +95,7 @@ $light-gray: #f4f4f4;
     font-size: 24px;
     border-bottom: 2px solid $font-color;
     display:inline-block;
+    margin-top: 30px;
 
     span {
         font-weight: bold;
@@ -119,7 +120,6 @@ $light-gray: #f4f4f4;
     }
 
     .title {
-        padding-top: 50px;
         margin-bottom: 2rem;
     }
 
@@ -133,11 +133,6 @@ $light-gray: #f4f4f4;
         &-body {
             background-color: $light-gray;
             padding: 0.8rem 0.8rem 0 0.8rem;
-    
-            .fa-angle-down {
-                color: $primary-color;
-                font-size: 30px;
-            }
         }
 
         &-date {
@@ -162,7 +157,44 @@ $light-gray: #f4f4f4;
     .ads {
         margin-top: 110px;
     }
-    
 }
+
+.fa-angle-down {
+    color: $primary-color;
+    font-size: 30px;
+}
+
+// ------------------Third Section------------------
+
+.airtrends {
+    margin-top: 10px;
+
+    .title {
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .bg-image {
+        background-image: url('/images/cover1.jpg');
+        height: 400px;
+        background-size: cover;
+    }
+
+    .ads {
+        margin-top: 10px;
+    }
+
+    &-text h5,
+    &-text p {
+        color: $font-color-dark;
+    }
+
+    &-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(255,255,255,0.2);
+    }
+}
+
 
 @import 'responsive';

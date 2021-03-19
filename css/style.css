@@ -90,6 +90,7 @@
   font-size: 24px;
   border-bottom: 2px solid #6e6e6e;
   display: inline-block;
+  margin-top: 30px;
 }
 
 .title span {
@@ -115,7 +116,6 @@
 }
 
 .airnews .title {
-  padding-top: 50px;
   margin-bottom: 2rem;
 }
 
@@ -130,11 +130,6 @@
 .airnews .card-body {
   background-color: #f4f4f4;
   padding: 0.8rem 0.8rem 0 0.8rem;
-}
-
-.airnews .card-body .fa-angle-down {
-  color: #019cdf;
-  font-size: 30px;
 }
 
 .airnews .card-date {
@@ -159,6 +154,41 @@
   margin-top: 110px;
 }
 
+.fa-angle-down {
+  color: #019cdf;
+  font-size: 30px;
+}
+
+.airtrends {
+  margin-top: 10px;
+}
+
+.airtrends .title {
+  color: #fff;
+  border-color: #fff;
+}
+
+.airtrends .bg-image {
+  background-image: url("/images/cover1.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.airtrends .ads {
+  margin-top: 10px;
+}
+
+.airtrends-text h5,
+.airtrends-text p {
+  color: #3e3e3e;
+}
+
+.airtrends-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 @media screen and (min-width: 1400px) {
   .navbar .container {
     margin-left: auto;
@@ -174,6 +204,9 @@
   .airnews .ads {
     margin-top: 95px;
   }
+  .airtrends .bg-image {
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -183,6 +216,22 @@
   .airnews .ads {
     margin-top: 80px;
   }
+  .airtrends .bg-image {
+    height: 320px;
+  }
+  .airtrends p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .airtrends .bg-image {
+    background-image: url("/images/cover2.jpg");
+    height: 380px;
+  }
+  .airtrends p {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -190,13 +239,13 @@
     margin-bottom: 30px;
   }
   .airnews .ads {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .navbar {
-    margin: 0;
+    padding: 0;
   }
   .navbar .nav-item {
     text-align: center;
@@ -211,6 +260,14 @@
   }
   .big-screen {
     display: none !important;
+  }
+  .airtrends .bg-image {
+    background-image: url("/images/cover3.jpg");
+    height: 700px;
+  }
+  .airtrends-text {
+    background-color: transparent;
+    margin-top: 350px;
   }
 }
 
@@ -229,5 +286,25 @@
   }
   .head p {
     font-size: 16px;
+  }
+  .airtrends .bg-image {
+    background-image: url("/images/cover4.jpg");
+    height: 560px;
+  }
+  .ads p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .airtrends-text {
+    background-color: transparent;
+    margin-top: 265px;
+  }
+  .airtrends-text h5 {
+    font-size: 16px;
+  }
+  .airtrends-text p {
+    font-size: 13px;
+    margin-bottom: 0;
   }
 }
