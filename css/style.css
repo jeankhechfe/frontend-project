@@ -235,10 +235,98 @@
   margin-top: 10px;
 }
 
+.table-section {
+  background-color: #e1f6fd;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.table-section table th {
+  color: #6e6e6e;
+}
+
+.table-section .fee-col {
+  width: 50px;
+}
+
+.table-section table {
+  border-color: #6e6e6e;
+}
+
+.table-section table > tbody > tr:nth-of-type(odd) {
+  background-color: #c3eef9;
+}
+
+.table-section .tabel-header {
+  background-color: #e1f6fd !important;
+  border-top: solid 3px #6e6e6e;
+  border-bottom: solid 3px #6e6e6e;
+}
+
+.table-section table > tbody > tr > th:first-child {
+  border-left-color: #e1f6fd;
+}
+
+.table-section table > tbody > tr > th:last-child {
+  border-right-color: #e1f6fd;
+}
+
+.table-section .weight-col {
+  min-width: 60px;
+}
+
+.table-section .company-col {
+  min-width: 165px;
+}
+
+.table-section .diagonal-cell {
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.table-section .diagonal-cell > div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.table-section .diagonal-line {
+  width: 313px;
+  height: 106px;
+  border-bottom: 1px solid #6e6e6e;
+  -webkit-transform: translateY(-21px) translateX(0px) rotate(31deg);
+          transform: translateY(-21px) translateX(0px) rotate(31deg);
+  position: absolute;
+}
+
+.table-section .bottom {
+  position: absolute;
+  bottom: 1px;
+  left: 15px;
+  font-size: 18px;
+}
+
+.table-section .top {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: 18px;
+}
+
 @media screen and (min-width: 1400px) {
   .navbar .container {
     margin-left: auto;
     margin-right: auto;
+  }
+  .diagonal-line {
+    width: 325px !important;
+    height: 99px !important;
+    -webkit-transform: translateY(-16px) translateX(0px) rotate(29deg) !important;
+            transform: translateY(-16px) translateX(0px) rotate(29deg) !important;
   }
 }
 

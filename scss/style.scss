@@ -4,6 +4,8 @@ $font-color: #6e6e6e;
 $font-color-dark: #3e3e3e;
 $gray: #aeaeae;
 $light-gray: #f4f4f4;
+$table-section-color: #e1f6fd;
+$table-section-second-color: #c3eef9;
 
 // ------------------Navbar & Header------------------
 
@@ -241,6 +243,89 @@ $light-gray: #f4f4f4;
 
     .ads {
         margin-top: 10px;
+    }
+}
+
+// ------------------Fiveth Section------------------
+
+.table-section {
+    background-color: $table-section-color;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+    table th {
+        color: $font-color;
+    }
+
+    .fee-col {
+        width: 50px;
+    }
+
+    table {
+        border-color: $font-color;
+    }
+
+    table>tbody>tr:nth-of-type(odd) {
+        background-color: $table-section-second-color;
+    }
+
+    .tabel-header {
+        background-color: $table-section-color !important;
+        border-top: solid 3px $font-color;
+        border-bottom: solid 3px $font-color;
+    }
+
+    table>tbody>tr>th:first-child {
+        border-left-color: $table-section-color;
+    }
+
+    table>tbody>tr>th:last-child {
+        border-right-color: $table-section-color;
+    }
+
+    .weight-col {
+        min-width: 60px;
+    }
+
+    .company-col {
+        min-width: 165px;
+    }
+
+    .diagonal-cell {
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .diagonal-cell>div {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .diagonal-line {
+        width: 313px;
+        height: 106px;
+        border-bottom: 1px solid $font-color;
+        transform: translateY(-21px) translateX(0px) rotate(31deg);
+        position: absolute;
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 1px;
+        left: 15px;
+        font-size: 18px
+    }
+      
+    .top {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 18px
     }
 }
 

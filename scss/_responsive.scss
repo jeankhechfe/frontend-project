@@ -3,6 +3,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .diagonal-line {
+        width: 325px !important;
+        height: 99px !important;
+        transform: translateY(-16px) translateX(0px) rotate(29deg) !important;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
