@@ -1,6 +1,31 @@
+.color-boxes {
+  position: absolute;
+  left: calc(50% - 15px);
+  width: 30px;
+  height: 15px;
+}
+
+.first-box {
+  float: left;
+  width: 15px;
+  height: 15px;
+  background-color: #019cdf;
+}
+
+.second-box {
+  float: left;
+  width: 15px;
+  height: 15px;
+  background-color: #555;
+}
+
 .navbar {
   padding: 0 100px;
   background-color: #fff;
+}
+
+.navbar .color-boxes {
+  top: 0;
 }
 
 .navbar .navbar-brand img {
@@ -65,8 +90,12 @@
   color: #6e6e6e;
 }
 
+.first-part-nav {
+  padding-top: 10px;
+}
+
 .second-part-nav {
-  top: 50px;
+  top: 60px;
   padding-top: 25px;
 }
 

@@ -8,11 +8,36 @@ $dark-gray: #555;
 $table-section-color: #e1f6fd;
 $table-section-second-color: #c3eef9;
 
+.color-boxes {
+    position: absolute;
+    left: calc(50% - 15px);
+    width: 30px;
+    height: 15px;
+}
+
+.first-box {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: $primary-color;
+}
+
+.second-box {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: $dark-gray;
+}
+
 // ------------------Navbar & Header------------------
 
 .navbar {
     padding: 0 100px;
     background-color: #fff;
+
+    .color-boxes {
+        top: 0;
+    }
 
     .navbar-brand img {
         width: 250px;
@@ -71,8 +96,12 @@ $table-section-second-color: #c3eef9;
 
 }
 
+.first-part-nav {
+    padding-top: 10px;
+}
+
 .second-part-nav {
-    top: 50px;
+    top: 60px;
     padding-top: 25px;
 }
 
