@@ -29,6 +29,12 @@ $table-section-second-color: #c3eef9;
     background-color: $dark-gray;
 }
 
+#airnews,
+#airtrends,
+#airchallenges {
+    position:absolute; top:-130px;
+}
+
 // ------------------Navbar & Header------------------
 
 .navbar {
@@ -145,6 +151,7 @@ $table-section-second-color: #c3eef9;
 }
 
 .airnews {
+    position: relative;
     margin-top: 35px;
 
     .background {
@@ -204,6 +211,7 @@ $table-section-second-color: #c3eef9;
 }
 
 .airtrends {
+    position: relative;
     margin-top: 10px;
 
     .bg-image {
@@ -232,6 +240,7 @@ $table-section-second-color: #c3eef9;
 // ------------------Fourth Section------------------
 
 .airchallenges {
+    position: relative;
     margin-top: 10px;
 
     &-title {

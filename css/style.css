@@ -19,6 +19,13 @@
   background-color: #555;
 }
 
+#airnews,
+#airtrends,
+#airchallenges {
+  position: absolute;
+  top: -130px;
+}
+
 .navbar {
   padding: 0 100px;
   background-color: #fff;
@@ -137,6 +144,7 @@
 }
 
 .airnews {
+  position: relative;
   margin-top: 35px;
 }
 
@@ -194,6 +202,7 @@
 }
 
 .airtrends {
+  position: relative;
   margin-top: 10px;
 }
 
@@ -219,6 +228,7 @@
 }
 
 .airchallenges {
+  position: relative;
   margin-top: 10px;
 }
 
