@@ -317,6 +317,36 @@
   font-size: 18px;
 }
 
+footer {
+  background-color: #555;
+  padding: 25px;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer a,
+footer a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+
+footer br {
+  display: none;
+}
+
+footer span {
+  color: #fff;
+  margin: 3px;
+}
+
+footer .seperator {
+  margin: 0 20px;
+}
+
 @media screen and (min-width: 1400px) {
   .navbar .container {
     margin-left: auto;
@@ -427,6 +457,15 @@
   .airtrends-text {
     background-color: transparent;
     margin-top: 350px;
+  }
+  footer img {
+    margin-bottom: 10px;
+  }
+  footer br {
+    display: block;
+  }
+  footer .seperator {
+    margin: 0;
   }
 }
 

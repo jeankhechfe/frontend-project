@@ -4,6 +4,7 @@ $font-color: #6e6e6e;
 $font-color-dark: #3e3e3e;
 $gray: #aeaeae;
 $light-gray: #f4f4f4;
+$dark-gray: #555;
 $table-section-color: #e1f6fd;
 $table-section-second-color: #c3eef9;
 
@@ -326,6 +327,38 @@ $table-section-second-color: #c3eef9;
     top: 1px;
     right: 10px;
     font-size: 18px
+    }
+}
+
+// ------------------Fiveth Section------------------
+
+footer {
+    background-color: $dark-gray;
+    padding: 25px;
+
+    img {
+        width: 150px;
+    }
+
+    a,
+    a:hover {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px ;
+    }
+
+    br {
+        display: none;
+    }
+
+    span {
+        color: #fff;
+        margin: 3px;
+    }
+
+    .seperator {
+        margin: 0 20px;
     }
 }
 

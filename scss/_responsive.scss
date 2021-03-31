@@ -139,6 +139,18 @@
             margin-top: 350px;
         }
     }
+
+    footer{
+        img {
+            margin-bottom: 10px;
+        }
+        br {
+            display: block;
+        }
+        .seperator {
+            margin: 0;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
