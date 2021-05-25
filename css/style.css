@@ -207,7 +207,7 @@
 }
 
 .airtrends .bg-image {
-  background-image: url("/images/cover1.jpg");
+  background-image: url("../images/cover1.jpg");
   height: 400px;
   background-size: cover;
 }
@@ -238,7 +238,7 @@
 }
 
 .airchallenges .bg-image {
-  background-image: url("/images/skewed.jpg");
+  background-image: url("../images/skewed.jpg");
   height: 400px;
   background-size: cover;
   margin-left: 10px;
@@ -442,7 +442,7 @@ footer .seperator {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .airtrends .bg-image {
-    background-image: url("/images/cover2.jpg");
+    background-image: url("../images/cover2.jpg");
     height: 380px;
   }
   .airtrends p {
@@ -490,7 +490,7 @@ footer .seperator {
     display: none !important;
   }
   .airtrends .bg-image {
-    background-image: url("/images/cover3.jpg");
+    background-image: url("../images/cover3.jpg");
     height: 700px;
   }
   .airtrends-text {
@@ -525,7 +525,7 @@ footer .seperator {
     font-size: 16px;
   }
   .airtrends .bg-image {
-    background-image: url("/images/cover4.jpg");
+    background-image: url("../images/cover4.jpg");
     height: 560px;
   }
   .ads p {
