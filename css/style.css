@@ -473,7 +473,7 @@ footer .seperator {
 
 @media screen and (max-width: 767px) {
   .navbar {
-    padding: 0;
+    padding: 10px 0 0 0;
   }
   .navbar .nav-item {
     text-align: center;
@@ -485,6 +485,9 @@ footer .seperator {
   }
   .navbar form {
     margin-bottom: 25px;
+  }
+  .head {
+    margin-top: 90px;
   }
   .big-screen {
     display: none !important;
